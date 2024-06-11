@@ -52,7 +52,7 @@ group :development, :test do
   gem "rubocop", require: false
   gem "rubocop-performance", require: false
   gem "rubocop-rails", require: false
-
+  
   # Reduces boot times through caching; required in config/boot.rb
   gem "bootsnap", require: false
 end
