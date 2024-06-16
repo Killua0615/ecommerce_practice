@@ -21,3 +21,20 @@ Style/Documentation:
 Metrics/BlockLength:
   Exclude:
     - "config/routes.rb"
+
+Metrics/MethodLength:
+  Max: 40
+
+Metrics/AbcSize:
+  Max: 40
+
+# グローバル設定の上書き
+inherit_mode:
+  merge:
+    - Layout/LineLength
+
+# 特定のファイルに対する設定
+Layout/LineLength:
+  Max: 130
+  Include:
+    - "config/initializers/stripe.rb"
