@@ -11,10 +11,6 @@ https://zenn.dev/farstep/books/7f169cdc597ada
 
 どちらもログインすることで閲覧できます。
 
-Githubリポジトリ
-
-https://github.com/Killua0615/ecommerce_practice
-
 ### 管理者側以下の内容が確認できます
 
 #### 注文履歴
